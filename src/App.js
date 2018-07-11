@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Redirect} from "react-router-dom";
 
 //imports local components
 import Nav from './components/Navbar';
@@ -49,10 +49,11 @@ class App extends Component {
                </svg>
             </header>
             <div className="container-fluid">
-               <Route exact path="/" component={Home} />
-               <Route exact path="/about" component={AboutMe} />
-               <Route exact path="/education" component={Education} />
-               <Route exact path="/work" component={Work} />
+               <Route exact path="/" render={() => (<Redirect to="/portfolio"/>)} />
+               <Route exact path="/portfolio" component={Home} />
+               <Route exact path="/portfolio/about" component={AboutMe} />
+               <Route exact path="/portfolio/education" component={Education} />
+               <Route exact path="/portfolio/work" component={Work} />
             </div>
           </div>
          </Router>

@@ -45,24 +45,24 @@ class Nav extends Component {
             </div>
             <div className={this.state.open ? "main-menu-content open" : "main-menu-content"}>
                <nav className="nav flex-column main-menu-nav">
-                  <Link className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}
-                        to="/">
+                  <Link className={window.location.pathname === "/portfolio/" ? "nav-link active" : "nav-link"}
+                        to="/portfolio">
                         Home
                   </Link>
-                  <Link className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
-                        to="/about">
+                  <Link className={window.location.pathname === "/portfolio/about" ? "nav-link active" : "nav-link"}
+                        to="/portfolio/about">
                         About Me
                   </Link>
-                  <Link className={window.location.pathname === "/work" ? "nav-link active" : "nav-link"}
-                        to="/work">
+                  <Link className={window.location.pathname === "/portfolio/work" ? "nav-link active" : "nav-link"}
+                        to="/portfolio/work">
                         Work Experience
                   </Link>
-                  <Link className={window.location.pathname === "/education" ? "nav-link active" : "nav-link"}
-                        to="/education">
+                  <Link className={window.location.pathname === "/portfolio/education" ? "nav-link active" : "nav-link"}
+                        to="/portfolio/education">
                         Education
                   </Link>
-                  <Link className={window.location.pathname === "/how-built" ? "nav-link active" : "nav-link"}
-                        to="/how-built">
+                  <Link className={window.location.pathname === "/portfolio/how-built" ? "nav-link active" : "nav-link"}
+                        to="/portfolio/how-built">
                         How Site Is Built
                   </Link>
                   <div className="main-menu-close" onClick={this.closeMenu}>Close menu</div>
