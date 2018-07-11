@@ -1,0 +1,47 @@
+{
+   "northwestern": {
+      "role":"System Developer",
+      "company":"Northwestern University",
+      "timeframe":"January 2016 - Present",
+      "location":"Evanston, IL",
+      "mainDescription":"Designed, developed, and maintained various in-house applications that are used across all the schools using languages such as Java, PL/SQL, Linux script, PHP, Laravel, and ADF.",
+      "additionalInfo":"<ul><li>Lead developer and designer for a 3 to 4-month project that involve expanding an application to add integration with DocuSign’s API for automating creating electronic documents and processing automatic responses from DocuSign. Provided feedback and code review for the other 2 developers that contributed, along with suggestions and working closely at times to demonstrate how to improve the code and resolve the bugs found during testing. Also help redesign the code for the integration of TransUnion that will be added with this project.</li><li>Lead developer and designer for 9-month project with 1 other colleague to re-design the eCATS application to interface with a new vendor for loan disbursement files. Nearing completion, became the sole developer that ran the integration test, UAT, and deploy the changes.</li><li>Developed and maintain Java and Oracle 11g PL/SQL code that run the batch process for the student loan disbursement eCATS applications.</li><li>Provide on-going support and monitors for the several applications that the team supports: FRS, Police Blotter, URG, GSTS, GATS, eCATS, NLA.</li><li>Working with 3 other developers, the team provides support to upgrade custom in-house application by converting them to enterprise level and on-going support.</li></ul>",
+      "projects":[
+         {
+            "app":"NLA",
+            "btn_color": "btn-primary"
+         },
+         {
+            "app":"eCATS",
+            "btn_color": "btn-info"
+         }
+      ]
+   },
+   "sears": {
+      "role":"System Engineer",
+      "company":"Sears Holdings Coporation",
+      "timeframe":"Novermber 2014 - January 2016",
+      "location":"Hoffman Estate, IL",
+      "mainDescription":"Designed, developed, and maintained various standalone and web service applications.",
+      "additionalInfo":"<ul><li>Developed Java applications that performed various tasks:<ul><li>Extract data from web sources to insert into a database with Web Scrapers.</li><li>Parsers for XML, text files, and Excel spreadsheets.</li><li>Hosts a basic web page through Web Servlets using Java and Java Servlet Pages with Tomcat.</li><li>Extract data and load into databases with Web Client ETL that connects to Omniture.</li></ul></li><li>Developed and maintained functions and stored procedures in DB2 for populating various tables:<ul><li>Function to return number of business days between 2 dates.</li><li>Stored Procedure to populate tables that need calculated data on the fly.</li><li>Each procedure/function used IF statements, While Loops, variables, and temporary tables.</li></ul></li><li>Designed and tested new schema to apply normalization 3 to tables for the data migration to MySQL from DB2.</li><li>Works with other teams to retrieve data from various sources such as websites and files; and load into a single database for common system for analytic reporting.</li></ul>",
+      "projects":[]
+   },
+   "devryeducationalgroup": {
+      "role":"System Administrator Intern",
+      "company":"DeVry Educational Group",
+      "timeframe":"January 2014 - April 2014",
+      "location":"Oakbrook, IL",
+      "mainDescription":"Worked with Becker team on their website.",
+      "additionalInfo":"<ul><li>Handled all support tickets and assign them to respective colleagues.</li><li>Lead the project on updating titles for requesting permissions for new accounts.</li><li>Created many change requests and enhancement requests.</li><li>Created a troubleshoot guide for the team.</li><li>Attended various meetings such as the requirement discovery.</li><li>Started the project and research to fix the broken pipe error.</li></ul>",
+      "projects":[]
+   },
+   "stpeter":{
+      "role":"IT and TECH Ministry Coordinator",
+      "company":"St. Peter Lutheran Church and School",
+      "timeframe":"August 2012 - January 2014",
+      "location":"Schaumburg, IL",
+      "mainDescription":"",
+      "additionalInfo":"<ul><li>Set up and maintained a Windows 2003 server and Windows 2008 server.</li><li>Maintained devices and troubleshoot IT related issues in the church and school.</li><li>Maintained the church and school website in Drupal.</li><li>Coordinated and trained volunteers to run soundboard and media projection at church services.</li></ul>",
+      "projects":[]
+   }
+}

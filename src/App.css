@@ -1,0 +1,55 @@
+body {
+   background: linear-gradient(#7004aa 15%, rgb(6, 124, 6) 25%, rgb(34, 216, 28, .4) 60%, white);
+   background-repeat: no-repeat;
+   height: calc(100vh);
+   font-family: 'Crimson Text', serif;
+   font-size: 20px;
+}
+
+h3 {
+   font-family: 'Crimson Text', serif;
+   font-weight: bold;
+}
+
+html {
+   overflow: scroll;
+   overflow-x: hidden;
+}
+::-webkit-scrollbar {
+   width: 0px;  /* remove scrollbar space */
+   background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+   background: #FF0000;
+}
+
+#A, #D, #a, #c, #d, #e, #n, #r, #w, #m, #i, #i2, #o {
+   fill:#2ECC40;
+}
+
+#outline {
+  stroke: #001f3f;
+  stroke-width: 2px;
+  stroke-dasharray: 0, 0, 30, 1250px;
+  stroke-dashoffset: 1250px;
+  Animation: outline-anim 15s linear 0s reverse infinite;
+  fill:transparent;
+}
+
+@keyframes outline-anim {
+  from {stroke-dashoffset: 0px;}
+  to {stroke-dashoffset: 1275px;}
+}
+
+@media (max-width: 767px) {
+   header{
+      margin-top: 30px;
+   }
+}
+
+@media (min-width: 768px) {
+   header{
+      min-height: 180px;
+   }
+}

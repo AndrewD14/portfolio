@@ -1,0 +1,16 @@
+.accordin-logos{
+   height: 150px;
+   max-width: 100%;
+   float: left;
+}
+
+.timeframe{
+   font-size: 1.3em;
+}
+
+@media(min-width: 768px){
+   .accordin-logos{
+      height: auto;
+      max-width: 100%;
+   }
+}

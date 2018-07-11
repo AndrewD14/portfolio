@@ -1,0 +1,115 @@
+{
+   "nla": {
+      "title":"Northwestern Loan Application",
+      "description":"<p>A custom in house responsive web application where the students and cosigners can fill out an online form for a loan at Northwestern. The application is coded in PHP using the Laravel framework. IBM's MQ system is ultilized to queue messages between NLA and eCATS, while some APIs are provided to pass data to eCATS.</p>",
+      "images": [
+         {
+            "path": "nla/login.png",
+            "legend": "Login Page",
+            "alt": "Northwestern Loan Application log in screenshot"
+         },
+         {
+            "path": "nla/sf-view.png",
+            "legend": "Student Finance View",
+            "alt": "Northwestern Loan Application student finance view screenshot"
+         },
+         {
+            "path": "nla/prom-note.png",
+            "legend": "Promomissory Note Page",
+            "alt": "Northwestern Loan Application promissory note screenshot"
+         },
+         {
+            "path": "nla/student-app.png",
+            "legend": "Student Application Start Page",
+            "alt": "Northwestern Loan Application student application start page screenshot"
+         },
+         {
+            "path": "nla/student-review.png",
+            "legend": "Student Review Page",
+            "alt": "Northwestern Loan Application student review page screenshot"
+         }
+      ]
+   },
+   "ecats": {
+      "title":"electronic Credit Application Transaction System",
+      "description":"<p>A custom in house application that receives award information from the student enterprised system, combines demographic data received from NLA, and then combines similar awards as 1 loan when time to disburse the money.</p><p>The application ultilizes Java to read and write fixed width text files, PL/SQL in Oracle 11g to process the data and business logic, Linux batch script to encrypt and decypt file and sends them to the vendors, and ADF for the web application. Apex is used to allow the users to generate reports from the data stored.</p>",
+      "images": [
+         {
+            "path": "ecats/login.png",
+            "legend": "Login Page",
+            "alt": "eCATS log in page screenshot"
+         },
+         {
+            "path": "ecats/admin.png",
+            "legend": "Admin Page",
+            "alt": "ecats admin page screenshot"
+         },
+         {
+            "path": "ecats/disbursement-info.png",
+            "legend": "Loan Disbursement Info Page",
+            "alt": "ecats loan disbursement info page screenshot"
+         },
+         {
+            "path": "ecats/history.png",
+            "legend": "Student History Page",
+            "alt": "student history page screenshot"
+         },
+         {
+            "path": "ecats/search.png",
+            "legend": "Search Page",
+            "alt": "seach page screenshot"
+         },
+         {
+            "path": "ecats/student-demo.png",
+            "legend": "Student Demographic Page",
+            "alt": "student demographic page screenshot"
+         },
+         {
+            "path": "ecats/student-info.png",
+            "legend": "Student Info Page",
+            "alt": "student info page screenshot"
+         }
+      ]
+   },
+   "jambids": {
+      "title":"JAM Bids",
+      "description":"<p>A modern designed real-time application where users can sign up and place bids or put items up for auction. The application uses web sockets through React JS and Express while being responsive for an enjoyable experience for both desktop and mobile.</p><p>Lead devloper of a team of 3</p>",
+      "images": [
+         {
+            "path": "jamBids/home.png",
+            "legend": "Home Page",
+            "alt": "jam bids home page screenshot"
+         },
+         {
+            "path": "jamBids/login.png",
+            "legend": "Login Modal",
+            "alt": "jam bids modal screenshot"
+         },
+         {
+            "path": "jamBids/validation.png",
+            "legend": "Validation Example",
+            "alt": "jam bids validation example screenshot"
+         },
+         {
+            "path": "jamBids/search.png",
+            "legend": "Search Results Page",
+            "alt": "jam bids search results page screenshot"
+         },
+         {
+            "path": "jamBids/itemPage.png",
+            "legend": "Item Page",
+            "alt": "jam bids item page screenshot"
+         },
+         {
+            "path": "jamBids/itemPage_map.png",
+            "legend": "Item with Map Page",
+            "alt": "jam bids item with map page screenshot"
+         },
+         {
+            "path": "jamBids/accountPage.png",
+            "legend": "Account Page",
+            "alt": "jam bids account page screenshot"
+         }
+      ]
+   }
+}
