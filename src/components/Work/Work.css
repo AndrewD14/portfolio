@@ -4,6 +4,14 @@
    float: left;
 }
 
+#nwu-logo{
+   max-height: 200px;
+}
+
+#devry-logo{
+   max-height: 175px;
+}
+
 .timeframe{
    font-size: 1.3em;
 }
@@ -12,5 +20,24 @@
    .accordin-logos{
       height: auto;
       max-width: 100%;
+   }
+
+   .hide-icons{
+      display: none;
+   }
+}
+
+@media(max-width: 767px){
+   .accordin-header-transparent{
+      background: transparent;
+      border: none;
+   }
+
+   .accordin-background{
+      background-color:rgba(0, 0, 0, 0.5);
+   }
+
+   .hide-logos{
+      display: none !important;
    }
 }

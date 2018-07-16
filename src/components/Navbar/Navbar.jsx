@@ -13,15 +13,6 @@ class Nav extends Component {
       }
    }
 
-   openMenu = () => {
-      this.setState({open: true});
-   }
-
-   closeMenu = (e) => {
-      e.preventDefault();
-      this.setState({open: false});
-   }
-
    toggelMenu = () => {
       if(this.state.open){
          this.setState({open: false});
@@ -46,26 +37,31 @@ class Nav extends Component {
             <div className={this.state.open ? "main-menu-content open" : "main-menu-content"}>
                <nav className="nav flex-column main-menu-nav">
                   <Link className={window.location.pathname === "/portfolio/" ? "nav-link active" : "nav-link"}
-                        to="/portfolio">
+                        to="/portfolio"
+                        onClick={this.toggelMenu}>
                         Home
                   </Link>
                   <Link className={window.location.pathname === "/portfolio/about" ? "nav-link active" : "nav-link"}
-                        to="/portfolio/about">
+                        to="/portfolio/about"
+                        onClick={this.toggelMenu}>
                         About Me
                   </Link>
                   <Link className={window.location.pathname === "/portfolio/work" ? "nav-link active" : "nav-link"}
-                        to="/portfolio/work">
+                        to="/portfolio/work"
+                        onClick={this.toggelMenu}>
                         Work Experience
                   </Link>
                   <Link className={window.location.pathname === "/portfolio/education" ? "nav-link active" : "nav-link"}
-                        to="/portfolio/education">
+                        to="/portfolio/education"
+                        onClick={this.toggelMenu}>
                         Education
                   </Link>
                   <Link className={window.location.pathname === "/portfolio/how-built" ? "nav-link active" : "nav-link"}
-                        to="/portfolio/how-built">
+                        to="/portfolio/how-built"
+                        onClick={this.toggelMenu}>
                         How Site Is Built
                   </Link>
-                  <div className="main-menu-close" onClick={this.closeMenu}>Close menu</div>
+                  <div className="main-menu-close" onClick={this.toggelMenu}>Close menu</div>
                </nav>
             </div>
          </div>
