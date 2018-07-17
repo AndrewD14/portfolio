@@ -1,0 +1,11 @@
+.about-me-img{
+   max-width: 350px;
+}
+
+.aboutme p{
+   font-size: 1.35rem; 
+}
+
+.aboutme .row{
+   padding-top: 25px;
+}
