@@ -12,9 +12,15 @@ class Education extends Component{
       super(props);
 
       this.state = {
-          showProject: false,
-          selectedProject: "jambids"
+         open: props.open,
+         toggelMenu: props.toggelMenu,
+         showProject: false,
+         selectedProject: "jambids"
       }
+   }
+
+   componentWillReceiveProps(nextProps){
+      this.setState({open: nextProps.open});
    }
 
    toggleShow = (e) => {
@@ -30,7 +36,7 @@ class Education extends Component{
       let project = projects[this.state.selectedProject];
 
       return(
-         <div className="container-fluid main">
+         <div className={this.state.open ? "main content open mx-auto" : "main content"}>
             <h1>Education</h1>
             <div className="row text-center align-items-cetner">
                <div className="col-12 col-md-4 flex-2">
