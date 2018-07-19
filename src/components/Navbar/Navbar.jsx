@@ -12,12 +12,26 @@ class Nav extends Component {
 
       this.state = {
           open: props.open,
-          toggelMenu: props.toggelMenu
+          toggelMenu: props.toggelMenu,
+          mobile: false
       }
+   }
+
+   componentDidMount(){
+      this.updatePredicate();
+      window.addEventListener("resize", this.updatePredicate.bind(this));
+   }
+
+   componentWillUnmount(){
+      window.removeEventListener("resize", this.updatePredicate.bind(this));
    }
 
    componentWillReceiveProps(nextProps){
       this.setState({open: nextProps.open});
+   }
+
+   updatePredicate(){
+      this.setState({mobile: window.innerWidth <= 767});
    }
 
    render(){
@@ -39,23 +53,28 @@ class Nav extends Component {
                   </div>
                   <nav className="nav flex-column main-menu-nav">
                      <Link className={window.location.pathname === "/portfolio/" ? "nav-link active" : "nav-link"}
-                           to="/portfolio">
+                           to="/portfolio"
+                           onClick={this.state.mobile ? this.state.toggelMenu : null}>
                            Home
                      </Link>
                      <Link className={window.location.pathname === "/portfolio/about" ? "nav-link active" : "nav-link"}
-                           to="/portfolio/about">
+                           to="/portfolio/about"
+                           onClick={this.state.mobile ? this.state.toggelMenu : null}>
                            About Me
                      </Link>
                      <Link className={window.location.pathname === "/portfolio/work" ? "nav-link active" : "nav-link"}
-                           to="/portfolio/work">
+                           to="/portfolio/work"
+                           onClick={this.state.mobile ? this.state.toggelMenu : null}>
                            Work Experience
                      </Link>
                      <Link className={window.location.pathname === "/portfolio/education" ? "nav-link active" : "nav-link"}
-                           to="/portfolio/education">
+                           to="/portfolio/education"
+                           onClick={this.state.mobile ? this.state.toggelMenu : null}>
                            Education
                      </Link>
                      <Link className={window.location.pathname === "/portfolio/how-built" ? "nav-link active" : "nav-link"}
-                           to="/portfolio/how-built">
+                           to="/portfolio/how-built"
+                           onClick={this.state.mobile ? this.state.toggelMenu : null}>
                            How Site Is Built
                      </Link>
                   </nav>
