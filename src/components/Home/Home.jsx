@@ -26,7 +26,7 @@ class Home extends Component {
                <p>Experienced Java Developer with a demonstrated history of working in the higher education industry. Skilled in Databases, Java, HTML, Linux, and Troubleshooting. Strong engineering professional with a Coding Boot Camp focused in Front-end/Full-stack Web Developer from Northwestern University.</p>
                <p>Developer that is always eager to learn new things and share his knowledge with others.</p>
             </div>
-            <div className="row d-flex align-items-center px-3">
+            <div className="row d-flex align-items-center px-3 clear-x-margins">
                <SkillLogo img="Oracle-db.png" label="Oracle DB"/>
                <SkillLogo img="mysql.png" label="MySQL"/>
                <SkillLogo img="256px-Postgresql_elephant.svg.png" label="PostgreSQL"/>
