@@ -1,5 +1,5 @@
 #name-height{
-   max-height: 3rem;
+   max-height: 6rem;
 }
 
 #A, #D, #a, #c, #d, #e, #n, #r, #w, #m, #i, #i2, #o {
@@ -18,4 +18,8 @@
 @keyframes outline-anim {
   from {stroke-dashoffset: 0px;}
   to {stroke-dashoffset: 1275px;}
+}
+
+header h1{
+   font-size: 1.4rem;
 }

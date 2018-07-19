@@ -37,28 +37,32 @@ class Nav extends Component {
                         </div>
                      </div>
                   </div>
-                  <nav className="nav flex-column main-menu-nav">
-                     <Link className={window.location.pathname === "/portfolio/" ? "nav-link active" : "nav-link"}
-                           to="/portfolio">
-                           Home
-                     </Link>
-                     <Link className={window.location.pathname === "/portfolio/about" ? "nav-link active" : "nav-link"}
-                           to="/portfolio/about">
-                           About Me
-                     </Link>
-                     <Link className={window.location.pathname === "/portfolio/work" ? "nav-link active" : "nav-link"}
-                           to="/portfolio/work">
-                           Work Experience
-                     </Link>
-                     <Link className={window.location.pathname === "/portfolio/education" ? "nav-link active" : "nav-link"}
-                           to="/portfolio/education">
-                           Education
-                     </Link>
-                     <Link className={window.location.pathname === "/portfolio/how-built" ? "nav-link active" : "nav-link"}
-                           to="/portfolio/how-built">
-                           How Site Is Built
-                     </Link>
-                  </nav>
+                  <div className="row">
+                     <div className="col-12">
+                        <nav className="nav flex-column main-menu-nav">
+                           <Link className={window.location.pathname === "/portfolio/" ? "nav-link active" : "nav-link"}
+                                 to="/portfolio">
+                                 Home
+                           </Link>
+                           <Link className={window.location.pathname === "/portfolio/about" ? "nav-link active" : "nav-link"}
+                                 to="/portfolio/about">
+                                 About Me
+                           </Link>
+                           <Link className={window.location.pathname === "/portfolio/work" ? "nav-link active" : "nav-link"}
+                                 to="/portfolio/work">
+                                 Work Experience
+                           </Link>
+                           <Link className={window.location.pathname === "/portfolio/education" ? "nav-link active" : "nav-link"}
+                                 to="/portfolio/education">
+                                 Education
+                           </Link>
+                           <Link className={window.location.pathname === "/portfolio/how-built" ? "nav-link active" : "nav-link"}
+                                 to="/portfolio/how-built">
+                                 How Site Is Built
+                           </Link>
+                        </nav>
+                     </div>
+                  </div>
                </div>
                <div id="menu-action" className={this.state.open ? "row d-flex justify-content-center align-items-center h-100 hide-desktop-menu open" : "row d-flex justify-content-center align-items-center h-100 hide-desktop-menu"}
                   onClick={this.state.toggelMenu}>

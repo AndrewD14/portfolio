@@ -22,12 +22,12 @@ body {
    background-color: rgb(255,255,255, 0.8);
 }
 
-h1 h3 {
+.content h1, .content h3 {
    font-family: 'Crimson Text', serif;
    font-weight: bold;
 }
 
-h1 {
+.content h1 {
    position: relative;
    color: #fff;
    padding: 10px 30px; 
@@ -39,8 +39,8 @@ h1 {
    box-shadow: 0 2px 0 rgba(0,0,0,.3);
 }
 
-h1:before, 
-h1:after {
+.content h1:before, 
+.content h1:after {
     content: '';
     position: absolute;
     border-style: solid;
@@ -48,20 +48,20 @@ h1:after {
     bottom: -10px;
 }
 
-h1:before {
+.content h1:before {
     border-width: 0 10px 10px 0;
     border-right-color: #222;
     left: 0;
 }
 
-h1:after {
+.content h1:after {
     border-width: 0 0 10px 10px;
     border-left-color: #222;
     right: 0;
 }
 
 @media (min-width: 768px) {
-   h1 {   
+   .content h1 {   
       margin: 0 -20px 0px -20px;
    }
    
