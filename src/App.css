@@ -19,7 +19,7 @@ body {
 }
 
 .content{
-   background-color: white;
+   background-color: rgb(255,255,255, 0.8);
 }
 
 h1 h3 {
@@ -70,7 +70,7 @@ h1:after {
       transition: width 300ms linear;
    }
    .content.open{
-      width: calc(100% - 16.666667% - 50px);
+      width: calc(100% - 16.666667% - 10px);
       transition: width 300ms linear;
    }
 }

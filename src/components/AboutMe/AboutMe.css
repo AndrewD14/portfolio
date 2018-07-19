@@ -1,5 +1,10 @@
+#aboutme p{
+   font-family: 'Dancing Script', cursive;
+}
+
 .about-me-img{
    max-width: 20rem;
+   margin-left: 1rem;
 }
 
 .aboutme p{
@@ -8,6 +13,11 @@
 
 .aboutme .row{
    padding-top: 2rem;
+}
+
+.underline{
+   text-decoration: underline;
+   text-decoration-style: solid;
 }
 
 @media (max-width: 767px){

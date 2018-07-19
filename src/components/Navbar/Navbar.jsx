@@ -60,7 +60,8 @@ class Nav extends Component {
                      </Link>
                   </nav>
                </div>
-               <div className="row d-flex justify-content-center align-items-center h-100 hide-desktop-menu" onClick={this.state.toggelMenu}>
+               <div id="menu-action" className={this.state.open ? "row d-flex justify-content-center align-items-center h-100 hide-desktop-menu open" : "row d-flex justify-content-center align-items-center h-100 hide-desktop-menu"}
+                  onClick={this.state.toggelMenu}>
                   <div>{this.state.open ? <i class="arrow left"/> : <i class="arrow right"/>}</div>
                </div>
             </div>
