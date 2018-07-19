@@ -1,5 +1,5 @@
 .about-me-img{
-   max-width: 350px;
+   max-width: 20rem;
 }
 
 .aboutme p{
@@ -7,5 +7,19 @@
 }
 
 .aboutme .row{
-   padding-top: 25px;
+   padding-top: 2rem;
+}
+
+@media (max-width: 767px){
+   .about-me-img{
+      max-width: 15rem;
+   }
+   
+   #aboutme-slogan{
+      max-width: 100%;
+   }
+   
+   #aboutme-gif{
+      max-width: 100%;
+   }
 }

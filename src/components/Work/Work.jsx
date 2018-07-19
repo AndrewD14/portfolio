@@ -28,7 +28,7 @@ class Work extends Component{
 
    render(){
       return(
-         <div className={this.state.menuOpen ? "main content open mx-auto" : "main content"}>
+         <div className={this.state.menuOpen ? "main content open mx-auto px-3 clear-x-margins" : "main content px-3 clear-x-margins"}>
             <h1>Work Experience</h1>
             <div className="accordion">
                <div className="card-header" onClick={this.selectJob}>
