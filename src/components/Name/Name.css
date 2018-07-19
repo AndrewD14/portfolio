@@ -1,3 +1,7 @@
+#name-height{
+   max-height: 3rem;
+}
+
 #A, #D, #a, #c, #d, #e, #n, #r, #w, #m, #i, #i2, #o {
    fill:#2ECC40;
 }

@@ -1,5 +1,7 @@
 #main-img{
    border-radius: 50%;
+   max-height: 12rem;
+   width: auto;
 }
 
 aside{
@@ -9,7 +11,7 @@ aside{
 
 .main-menu{
    background-color: rgba(0, 4, 255);
-   height: 20.3rem;
+   height: 19.5rem;
    width: 100%;
    overflow: hidden;
    color: white;
@@ -19,7 +21,7 @@ aside{
 }
 
 .main-menu.open{
-   height: 560px;
+   height: 36rem;
 }
 
 @media (max-width: 767px){

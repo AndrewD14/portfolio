@@ -5,8 +5,8 @@ import './Name.css';
 class Name extends Component {
    render(){
       return(
-         <header className="d-flex justify-content-center">
-               <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="auto" height="auto" viewBox="0 0 301 43">
+         <header id="name-height" className="d-flex justify-content-center">
+               <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="auto" height="auto" viewBox="0 0 305 45">
                   <defs>
                      <filter id="dropShadow">
                         <feComponentTransfer in="SourceAlpha">
