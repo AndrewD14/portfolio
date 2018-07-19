@@ -40,7 +40,7 @@ class Name extends Component {
                </div>
                <div className="row">
                   <div className="col-12 text-center">
-                     <h1>Full-Stack Software Developer</h1>
+                     <h1 id="job-title">Full-Stack Software Developer</h1>
                   </div>
                </div>
             </header>

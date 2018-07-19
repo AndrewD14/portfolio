@@ -9,9 +9,19 @@ aside{
    z-index: 1000;
 }
 
+nav a{
+   color: rgb(10, 209, 10);
+   font-weight: bold;
+   text-shadow:
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
 .main-menu{
-   background-color: rgba(0, 4, 255);
-   height: 22.5rem;
+   background-color: rgb(8, 11, 185);
+   height: 22.6rem;
    width: 100%;
    overflow: hidden;
    color: white;
@@ -27,7 +37,7 @@ aside{
 @media (max-width: 767px){
    .hide-desktop-menu{
       display: none;
-   }   
+   }
 }
 
 @media (min-width: 768px) {

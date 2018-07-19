@@ -21,8 +21,10 @@
       margin: 0;
       overflow: visible;
    }
-      .hamburger:hover {
-      opacity: 0.7; }
+
+   .hamburger:hover {
+      opacity: 0.7;
+   }
    
    .hamburger-box {
       width: 1rem;
@@ -42,7 +44,8 @@
       position: absolute;
       transition-property: transform;
       transition-duration: 0.15s;
-      transition-timing-function: ease; }
+      transition-timing-function: ease;
+   }
       .hamburger-inner::before, .hamburger-inner::after {
       content: "";
       display: block; }
@@ -79,7 +82,7 @@
 
    .sticky{
       position: sticky;
-      top: -19.7rem;
+      top: -19.5rem;
    }
  }
 
